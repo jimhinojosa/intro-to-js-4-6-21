@@ -59,6 +59,28 @@ function makeH1(text = 'I am a H1', myNumber = 5) {
     document.body.appendChild(h1);
 }
 
+// arithmatic
+
+1 + 1;
+2 - 1;
+3 * 9;
+4 / 2;
+
+
+// comparative
+1 < 5;
+3 > 7;
+4 <= 4;
+
+if (1 < 5 ) {
+    console.log('runs');
+}
+
+
+// logic
+!true || false && 0 && '';
+
+
 makeH1('I am an h1', 1);
 makeH1(2, 2);
 makeH1('!', 100);
